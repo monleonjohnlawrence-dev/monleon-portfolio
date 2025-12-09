@@ -438,22 +438,29 @@
         <section class="place-gallery">
           <div class="place-photo">
             <img src="assets/MATAPH.jpg" data-gallery="cebu-gallery-1" alt="Cebu Company Photo 1">
-            <p>Description here</p>
+            <p>Mata Technologies Inc. is a homegrown provider of virtual tours for real estate in the Philippines. 
+            It is also the virtual reality map provider of tourist destinations in the country. Deriving its name from the 
+            Filipino word “mata,” which means eyes, Mata Tech aims to give you a 360° preview of real estate properties and notable destinations.</p>
             
           </div>
           <div class="place-photo">
             <img src="assets/DYNATA.jpg" data-gallery="cebu-gallery-2" alt="Cebu Company Photo 2">
-            <p>Description here</p>
+            <p>Dynata is a legitimate, global market research company and the world's largest provider of first-party data for insights, 
+            activation, and measurement. Founded in 1977 and headquartered in Shelton, Connecticut, the company was previously known as 
+            Survey Sampling International (SSI) and Research Now SSI.</p>
             
           </div>
           <div class="place-photo">
             <img src="assets/UP.png" data-gallery="cebu-gallery-3" alt="Cebu Company Photo 3">
-            <p>Description here</p>
+            <p>The University of the Philippines (UP) Cebu Business Incubator for Information Technology (CeBu InIT) 
+            is a technology business incubator (TBI) that supports the creation and growth of innovative technology 
+            startups in the Central Visayas region of the Philippines.</p>
             
           </div>
           <div class="place-photo">
             <img src="assets/RIVANIT.png" data-gallery="cebu-gallery-4" alt="Cebu Company Photo 4">
-            <p>Description here</p>
+            <p>RIVANIT is a long-running, legitimate Information Technology (IT) training and certification center 
+            in the Philippines, operating under the formal names RivanCyber Training Institute Inc. and Rivan School of Technology Inc.</p>
             
           </div>
         </section>
@@ -468,7 +475,9 @@
         <section class="place-gallery">
           <div class="place-photo">
             <img src="assets/TARSIER.png" data-gallery="bohol-gallery-1" alt="Bohol Company Photo 1">
-            <p>Description here</p>
+            <p>The Telephone and Radio System Integrated Emergency Response (TaRSIER 117) is the official, 
+            integrated emergency call and dispatch system for the entire Province of Bohol in the Philippines. 
+            It is the operational arm of the Bohol Provincial Disaster Risk Reduction Management Office (PDRRMO).</p>
           </div>
         </section>
       </div>
@@ -685,4 +694,21 @@
 
   // Expose openLightbox globally
   window.openLightbox = openLightbox;
+})();
+
+// Loading Screen Functionality
+(function(){
+  const loadingScreen = document.getElementById('loading-screen');
+
+  function hideLoadingScreen() {
+    loadingScreen.classList.add('hide');
+    setTimeout(() => {
+      loadingScreen.style.display = 'none';
+    }, 500); // Match the transition duration
+  }
+
+  // Hide loading screen when page is fully loaded
+  window.addEventListener('load', () => {
+    setTimeout(hideLoadingScreen, 1000); // Optional delay for better UX
+  });
 })();

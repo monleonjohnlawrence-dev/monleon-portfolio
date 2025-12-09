@@ -474,6 +474,14 @@ body:not(.is-dark) .place-card h3 {
     border-color: var(--primary-color);
 }
 
+.place-photo p {
+    color: var(--accent-01);
+}
+
+body:not(.is-dark) .place-photo p {
+    color: #000000;
+}
+
 /* ============================= */
 /* CONTACT */
 /* ============================= */
@@ -605,6 +613,11 @@ section {
 
 .achivements h3 {
     font-size: 2.3em;
+    color: var(--accent-01);
+}
+
+body:not(.is-dark) .achivements h3 {
+    color: #000000;
 }
 
 .achivements ion-icon {
@@ -861,6 +874,55 @@ section {
   opacity: 0 !important;
   visibility: hidden !important;
   pointer-events: none !important;
+}
+
+/* ============================= */
+/* LOADING SCREEN */
+/* ============================= */
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-04);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#loading-screen.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading-content {
+  text-align: center;
+  color: var(--accent-01);
+}
+
+.loading-circle {
+  width: 100px;
+  height: 100px;
+  border: 10px solid var(--accent-03);
+  border-top: 10px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-content p {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--accent-01);
 }
 
 
