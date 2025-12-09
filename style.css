@@ -835,6 +835,7 @@ section {
   background-color: rgba(0,0,0,0.9);
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   z-index: 10000;
 }
 
@@ -850,6 +851,7 @@ section {
   border-radius: 12px;
   object-fit: contain;
   cursor: zoom-out;
+  margin: auto;
 }
 
 /* REMOVE CLOSE BUTTON COMPLETELY */

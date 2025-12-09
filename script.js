@@ -490,6 +490,11 @@
       contentContainer.style.opacity = '1';
       contentContainer.style.transform = 'translateY(0)';
 
+      // Scroll to content on mobile
+      if (window.innerWidth <= 767) {
+        contentContainer.scrollIntoView({ behavior: 'smooth' });
+      }
+
       // Add event listeners for back button in galleries
       const backButton = contentContainer.querySelector('.back-button');
       if (backButton) {
