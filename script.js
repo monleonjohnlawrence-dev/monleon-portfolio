@@ -620,11 +620,7 @@
     }
   });
 
-  // Initialize with about section
-  document.addEventListener('DOMContentLoaded', () => {
-    loadContent('about');
-    document.querySelector('button[data-section="about"]').classList.add('active');
-  });
+  // No automatic initialization - page stays static on load
 })();
 
 // Slideshow for profile header image
