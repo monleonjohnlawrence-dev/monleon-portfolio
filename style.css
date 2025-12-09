@@ -124,8 +124,8 @@ body {
 
 .profile .header {
     /* larger header so placeholder fills more of the card */
-    height: 220px;
-    max-height: 48vh;
+    height: 300px;
+    max-height: 60vh;
     width: 100%;
     border-radius: 25px 25px 0 0;
     object-fit: cover;

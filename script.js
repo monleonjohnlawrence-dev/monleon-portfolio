@@ -33,7 +33,7 @@
   }
 
   // initialize
-  const saved = localStorage.getItem(toggleKey) || 'light';
+  const saved = localStorage.getItem(toggleKey) || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   applyTheme(saved);
 
   // attach to ion-icon inside .theme box if present
@@ -610,6 +610,38 @@
   document.addEventListener('DOMContentLoaded', () => {
     loadContent('about');
     document.querySelector('button[data-section="about"]').classList.add('active');
+  });
+})();
+
+// Slideshow for profile header image
+(function(){
+  const headerImg = document.querySelector('.profile .header');
+  if (!headerImg) return;
+
+  const images = [
+    'assets/P1.jpg',
+    'assets/P2.jpg',
+    'assets/P3.jpg',
+    'assets/P4.jpg',
+    'assets/P5.jpg',
+    'assets/P6.jpg',
+    'assets/P7.jpg',
+    'assets/P8.jpg',
+    'assets/P9.jpg'
+   
+    
+  ];
+
+  let currentIndex = 0;
+
+  function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    headerImg.src = images[currentIndex];
+  }
+
+  // Start slideshow after DOM loads
+  document.addEventListener('DOMContentLoaded', () => {
+    setInterval(changeImage, 3000); // Change every 3 seconds
   });
 })();
 
