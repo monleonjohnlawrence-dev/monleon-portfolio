@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+            <div class="box theme">
+                <div class="item">
+                    <ion-icon name="sunny-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="box nav">
+                <div class="item">
+                    <a href="#about">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <p>about</p>
+                    </a>
+                <div class="divider rtl"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#resume">
+                        <ion-icon name="document-outline"></ion-icon>
+                        <p>resume</p>
+                    </a>
+                <div class="divider rtl"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#projects">
+                        <ion-icon name="globe-outline"></ion-icon>
+                        <p>projects</p>
+                    </a>
+                <div class="divider rtl"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#TOUR">
+                        <ion-icon name="airplane-outline"></ion-icon>
+                        <p>TOUR</p>
+                    </a>
+                <div class="divider rtl"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#contact">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <p>contact</p>
+                    </a>
+                <div class="divider rtl"></div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="box profile">
+            <img class="header" src="../backg.jpg" alt="">
+            <img class="img" src="../profile.jpg" alt="">
+            <h2> John Lawrence Monleon</h2>
+            <p class="colored"> FULL-STACK DEVELOPER</p>
+
+            <ul>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+            </ul>
+
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#">My Resume <ion-icon name="folder-outline"></ion-icon></a></td>
+                        <td><a href="#">Contact Me </a><ion-icon name="call-outline"></ion-icon></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="box content">
+            <h2>Hello!<span class="colored">Waazzuupp!</span>👋</h2>
+            <div class="divider ltr"></div>
+            <p>SASBHJBDHJ BHJBSHJDBFHJBDHJGHSJBGHJDFBGKJSBNKJFBGH
+                NLHJKDBFGDFHGBHDJLBGSDJLHBGSDHJLFBGSDHJLFBGDFJSH
+                LGBDHJSLFGBDSHJLBGDHJLFBGHDJLFGBHDJGB dfgdfgdfggdfgfd
+                dfgdfgdfgdfgdf dfgdfgdfgdrfg
+            </p>
+
+            <!-- achivements -->
+            <section class="achivements">
+                <div>
+                    <h3><ion-icon name="layers-outline"></ion-icon>2K+</h3>
+                    <p>Website Design</p>
+                </div> 
+                <div>
+                    <h3><ion-icon name="briefcase-outline"></ion-icon>5+</h3>
+                    <p>Years of Experiene</p>
+                </div> 
+                <div>
+                    <h3><ion-icon name="rocket-outline"></ion-icon>4K</h3>
+                    <p>Completed Projects</p>
+                </div>
+            </section>
+
+
+            <!-- NEW WRAPPER START -->
+            <div class="skills-experience-box">
+
+                <h2>My <span class="colored">Skills</span></h2>
+                <div class="divider ltr"></div>
+
+                <section class="skills">
+                    <div><ion-icon name="logo-html5"></ion-icon><P>HTML</P></div>
+                    <div><ion-icon name="logo-css3"></ion-icon><P>CSS</P></div>
+                    <div><ion-icon name="logo-react"></ion-icon><P>REACT</P></div>
+                    <div><ion-icon name="logo-python"></ion-icon><P>PYTHON</P></div>
+                    <div><ion-icon name="logo-javascript"></ion-icon><P>JAVA</P></div>
+                    <div><P>PHP</P></div>
+                    <div><P>C++</P></div>
+                    <div><P>C#</P></div>
+
+                    <div>
+                        <div class="circle" style="--percent:65%">
+                            <h4>65 <small>%</small></h4>
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+
+                    <div>
+                        <div class="circle" style="--percent:85%">
+                            <h4>85 <small>%</small></h4>
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+
+                    <div>
+                        <div class="progress-bar">
+                            <p>Node JS <span>90%</span></p>
+                            <progress max="100" value="90"></progress>
+                        </div>
+
+                        <div class="progress-bar">
+                            <p>PostgressSQL <span>75%</span></p>
+                            <progress max="100" value="75"></progress>
+                        </div>
+                    </div>
+
+                </section>
+
+                <h1>My <span class="colored">Experience</span></h1>
+                <div class="divider ltr"></div>
+
+                <section class="experiences">
+                    <div class="experience">
+                        <h2>N/A</h2>
+                        <h4>N/A</h4>
+                        <p>AAHHAHAHAHAHAHAHAHAHAHESTRKFVTKYULITYUKRTYURBTYKRFTYDRYUDFBTYFTYFYJTFTYJDFERSET BKHGBNMUIHIYUMGYUTFGNKUYGLIYUHMLUKH</p>
+                    </div>
+
+                    <div class="experience">
+                        <h2>N/A</h2>
+                        <h4>N/A</h4>
+                        <p>AAHHAHAHAHAHAHAHAHAHAHESTRKFVTKYULITYUKRTYURBTYKRFTYDRYUDFBTYFTYFYJTFTYJDFERSET BKHGBNMUIHIYUMGYUTFGNKUYGLIYUHMLUKH</p>
+                    </div>
+                </section>
+
+            </div>
+            <!-- NEW WRAPPER END -->
+
+        </div>
+
+    </div>
+
+</body>
+</html>

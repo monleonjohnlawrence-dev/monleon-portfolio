@@ -1,0 +1,8 @@
+- [x] Update tour section in script.js to show only two place-cards: Cebu and Bohol
+- [x] Ensure place-cards use data-place="cebu" and data-place="bohol"
+- [x] Add event listeners for gallery images in photo-gallery-grid to open lightbox
+- [x] Modify openLightbox to handle back navigation to level 2 (place details)
+- [x] Fix lightbox to use CSS classes instead of direct display manipulation
+- [x] Change loadPlaceDetail gallery images to load gallery section instead of opening lightbox
+- [x] Test navigation flow: Level 1 -> Level 2 -> Level 3 -> back to Level 2 -> back to Level 1
+- [x] Update TODO.md with completed tasks

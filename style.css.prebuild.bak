@@ -1,0 +1,32 @@
+/* Backup of style.css before layout replication work */
+:root{
+    --bg:#f7fbfe; /* default */
+    --primary:#30c7b8;
+    --glass:rgba(255,255,255,0.6);
+    --accent:#0c2f3b;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:var(--accent);}
+
+.container{display:grid;grid-template-columns:80px 260px 1fr;gap:20px;align-items:start;padding:30px}
+
+.navbar .box{background:var(--glass);border-radius:12px;padding:12px;margin-bottom:12px}
+
+.profile{background:linear-gradient(180deg,#fff, #f6f9fb);border-radius:12px;overflow:hidden}
+.profile .header{width:100%;height:110px;object-fit:cover}
+.profile .img{width:120px;height:120px;border-radius:50%;margin:-60px auto 10px;display:block}
+.profile h2{text-align:center;margin:0;padding:10px 0}
+.profile .colored{ color:var(--primary);text-align:center}
+
+.content{background:#fff;border-radius:12px;padding:18px;max-height:560px;overflow-y:auto}
+
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+
+.progress-bar{background:#f1f6f7;border-radius:8px;padding:8px}
+
+.experiences .experience{background:#f7f9fb;border-radius:8px;padding:12px;margin-bottom:10px}
+
+/* small responsive */
+@media (max-width:1023px){.container{grid-template-columns:60px 1fr;}}
+@media (max-width:767px){.container{grid-template-columns:1fr;padding:12px}.navbar{display:none}}
