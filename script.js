@@ -157,21 +157,35 @@
       <section class="projects-grid">
         <!-- EDIT PROJECT 1 DETAILS HERE -->
         <div class="project-card">
-          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%2330c7b8' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EProject 1%3C/text%3E%3C/svg%3E" alt="Project 1">
-          <h3>SOON</h3>
-          <p>SOON</p>
+          <img src="assets/wander.png" alt="Project 1">
+          <h3>WANDER</h3>
+          <p>WANDER is a tour guide company built for people who crave adventure, stories, and unforgettable moments. 
+          More than just bringing travelers from point A to point B, WANDER creates experiences that connect you to culture, 
+          nature, and the heart of every destination. We’re all about making your journey smooth, safe, and hella exciting — whether 
+          it’s a chill city stroll, a nature escape, or a full-on adventure vibe.</p>
         </div>
         <!-- EDIT PROJECT 2 DETAILS HERE -->
         <div class="project-card">
-          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%2330c7b8' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EProject 2%3C/text%3E%3C/svg%3E" alt="Project 2">
-          <h3>SOON</h3>
-          <p>SOON</p>
+          <img src="assets/WECARE.jpg" alt="Project 2">
+          <h3>WE CARE</h3>
+          <p>We Care is a mobile app designed to uplift and inspire. With a collection of motivational quotes and Bible verses, 
+          it helps you shift your mood and gain a fresh perspective whenever you need it. More than just words on a screen, 
+          We Care empowers you to boost your confidence, find encouragement, and meet your personal needs—whether you’re seeking inspiration, comfort, or a daily reminder of hope.</p>
         </div>
         <!-- EDIT PROJECT 3 DETAILS HERE -->
         <div class="project-card">
-          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%2330c7b8' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EProject 3%3C/text%3E%3C/svg%3E" alt="Project 3">
-          <h3>SOON</h3>
-          <p>SOON</p>
+          <img src="assets/PODIUM.jpg" alt="Project 3">
+          <h3>THE PODIUM</h3>
+          <p>The Podium is a web application for managing and tracking seminars for HCDC's VPAA. Tracks attendance, evaluate attended seminars, 
+          generates certificates and sent to email, and a seminar evaluation analytics for the admin with a certificate template editor. 
+          Built for WS101 during my 3rd year of college.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/SUPERK.jpg" alt="Project 4">
+          <h3>SUPER K</h3>
+          <p>To support its growing operations, Super K Marketing Inc. utilizes a Point of Sale (POS) with Inventory Management System, designed to streamline sales transactions, 
+          track product stock in real-time, and improve overall efficiency. This system ensures that the business can provide excellent customer service while maintaining accurate 
+          records of sales and inventory.</p>
         </div>
       </section>
     `,
