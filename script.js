@@ -191,7 +191,7 @@
     `,
     // EDIT PLACE PHOTO CONTENT HERE
     tour: `
-      <h2>My <span class="colored">Place Photo Gallery</span></h2>
+      <h2>My <span class="colored">Edcational Tour Gallery</span></h2>
       <div class="divider ltr"></div>
       <section class="places-grid">
         <!-- EDIT CEBU PLACE DETAILS HERE -->
@@ -245,16 +245,11 @@
       <button class="back-button" data-section="tour">
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Places
       </button>
+      
       <section class="photo-gallery-grid">
         <img src="../UP1.png">
         <img src="../UP2.png">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 3%3C/text%3E%3C/svg%3E" alt="Cebu Photo 3">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 4%3C/text%3E%3C/svg%3E" alt="Cebu Photo 4">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 5%3C/text%3E%3C/svg%3E" alt="Cebu Photo 5">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 6%3C/text%3E%3C/svg%3E" alt="Cebu Photo 6">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 7%3C/text%3E%3C/svg%3E" alt="Cebu Photo 7">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 8%3C/text%3E%3C/svg%3E" alt="Cebu Photo 8">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3ECebu Photo 9%3C/text%3E%3C/svg%3E" alt="Cebu Photo 9">
+        
       </section>
     `,
     'bohol-gallery': `
@@ -278,10 +273,13 @@
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
       </button>
       <section class="photo-gallery-grid">
+      <p> Click the photo to view the full image. </p>
        
         <img src="assets/MATAPH1.png">
         <img src="assets/MATAPH2.png">
-        <img src="assets/MATAPH3.png"assets
+        <img src="assets/MATAPH3.png">
+        <img src="assets/MATAPH4.jpg">
+        <img src="assets/MATAPH5.jpg">
       </section>
     `,
     'cebu-gallery-2': `
@@ -289,9 +287,11 @@
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
       </button>
       <section class="photo-gallery-grid">
-        <img src="assets/DYNATA1.png" alt="Cebu Gallery 2 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
+      <p> Click the photo to view the full image. </p>
+        <img src="assets/DYNATA1.png">
+        <img src="assets/DYNATA2.jpg">
+        <img src="assets/DYNATA3.jpg">
+        
       </section>
     `,
     'cebu-gallery-3': `
@@ -299,10 +299,11 @@
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
       </button>
       <section class="photo-gallery-grid">
+      <p> Click the photo to view the full image. </p>
         <img src="assets/UP1.png">
         <img src="assets/UP2.png">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
+        <img src="assets/UP3.jpg">
+       
       </section>
     `,
     'cebu-gallery-4': `
@@ -310,59 +311,9 @@
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
       </button>
       <section class="photo-gallery-grid">
+      <p> Click the photo to view the full image. </p>
         <img src="assets/RIVAN1.JPG" alt="Cebu Gallery 4 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu-gallery-5': `
-      <button class="back-button" data-section="cebu">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../UP1.png" alt="Cebu Gallery 5 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu-gallery-6': `
-      <button class="back-button" data-section="cebu">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../UP2.png" alt="Cebu Gallery 6 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu-gallery-7': `
-      <button class="back-button" data-section="cebu">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../MATAPH1.png" alt="Cebu Gallery 7 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu-gallery-8': `
-      <button class="back-button" data-section="cebu">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../MATAPH2.png" alt="Cebu Gallery 8 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu-gallery-9': `
-      <button class="back-button" data-section="cebu">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../MATAPH3.png" alt="Cebu Gallery 9 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
+        
       </section>
     `,
     'bohol-gallery-1': `
@@ -370,74 +321,14 @@
         <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
       </button>
       <section class="photo-gallery-grid">
+      <p> Click the photo to view the full image. </p>
         <img src="assets/TARSIER1.JPG">
         <img src="assets/TARSIER2.JPG">
         <img src="assets/TARSIER3.JPG">
 
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'bohol-gallery-2': `
-      <button class="back-button" data-section="bohol">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../MATAPH.jpg" alt="Bohol Gallery 2 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'bohol-gallery-3': `
-      <button class="back-button" data-section="bohol">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../UP.png" alt="Bohol Gallery 3 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu1-gallery': `
-      <button class="back-button" data-section="cebu1">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../MATAPH.jpg" alt="Cebu Photo Place 1 - 1">
-        <img src="../MATAPH1.png" alt="Cebu Photo Place 1 - 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu2-gallery': `
-      <button class="back-button" data-section="cebu2">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../DYNATA.jpg" alt="Cebu Photo Place 2 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu3-gallery': `
-      <button class="back-button" data-section="cebu3">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../UP.png" alt="Cebu Photo Place 3 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
-      </section>
-    `,
-    'cebu4-gallery': `
-      <button class="back-button" data-section="cebu4">
-        <ion-icon name="arrow-back-outline"></ion-icon> Back to Place
-      </button>
-      <section class="photo-gallery-grid">
-        <img src="../RIVANIT.png" alt="Cebu Photo Place 4 - 1">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 2%3C/text%3E%3C/svg%3E" alt="Photo 2">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2330c7b8' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPhoto 3%3C/text%3E%3C/svg%3E" alt="Photo 3">
       </section>
     `
+
   };
 
   // Place detail content - EDIT PLACE DETAILS HERE
