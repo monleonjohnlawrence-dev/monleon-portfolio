@@ -313,6 +313,8 @@
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
         <img src="assets/RIVAN1.JPG" alt="Cebu Gallery 4 - 1">
+        <img src="assets/RIVAN2.jpg" alt="Cebu Gallery 4 - 1">
+        <img src="assets/RIVAN3.jpg" alt="Cebu Gallery 4 - 1">
         
       </section>
     `,
@@ -324,7 +326,7 @@
       <p> Click the photo to view the full image. </p>
         <img src="assets/TARSIER1.JPG">
         <img src="assets/TARSIER2.JPG">
-        <img src="assets/TARSIER3.JPG">
+        <img src="assets/TARSIER3.jpg">
 
       </section>
     `
