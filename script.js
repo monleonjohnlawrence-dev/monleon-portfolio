@@ -603,7 +603,7 @@
   window.openLightbox = openLightbox;
 })();
 
-// Loading Screen Functionality
+// Loading Screen Functionality (waits for all images)
 (function(){
   const loadingScreen = document.getElementById('loading-screen');
 
@@ -611,11 +611,37 @@
     loadingScreen.classList.add('hide');
     setTimeout(() => {
       loadingScreen.style.display = 'none';
-    }, 500); // Match the transition duration
+    }, 500); // Match the CSS transition duration
   }
 
-  // Hide loading screen when page is fully loaded
-  window.addEventListener('load', () => {
-    setTimeout(hideLoadingScreen, 1000); // Optional delay for better UX
-  });
+  function waitForAllImages() {
+    const imgs = Array.from(document.images);
+    let loadedCount = 0;
+
+    if (imgs.length === 0) {
+      hideLoadingScreen();
+      return;
+    }
+
+    imgs.forEach(img => {
+      if (img.complete) {
+        loadedCount++;
+      } else {
+        img.addEventListener('load', () => {
+          loadedCount++;
+          if (loadedCount === imgs.length) hideLoadingScreen();
+        });
+        img.addEventListener('error', () => {
+          loadedCount++;
+          if (loadedCount === imgs.length) hideLoadingScreen();
+        });
+      }
+    });
+
+    // If all images were already loaded
+    if (loadedCount === imgs.length) hideLoadingScreen();
+  }
+
+  // Wait until DOM is ready to check images
+  document.addEventListener('DOMContentLoaded', waitForAllImages);
 })();
