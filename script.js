@@ -315,6 +315,9 @@
         <img src="assets/RIVAN1.JPG" alt="Cebu Gallery 4 - 1">
         <img src="assets/RIVAN2.jpg" alt="Cebu Gallery 4 - 1">
         <img src="assets/RIVAN3.jpg" alt="Cebu Gallery 4 - 1">
+        <img src="assets/RIVAN4.jpg" alt="Cebu Gallery 4 - 1">
+        <img src="assets/RIVAN5.jpg" alt="Cebu Gallery 4 - 1">
+        <img src="assets/RIVAN6.jpg" alt="Cebu Gallery 4 - 1">
         
       </section>
     `,
@@ -342,6 +345,7 @@
         <button class="back-button">
           <ion-icon name="arrow-back-outline"></ion-icon> Back
         </button>
+        <p>CLick the Image to View hidden Photos</p>
         <section class="place-gallery">
           <div class="place-photo">
             <img src="assets/MATAPH.jpg" data-gallery="cebu-gallery-1" alt="Cebu Company Photo 1">
