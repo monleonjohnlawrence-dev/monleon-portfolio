@@ -275,6 +275,7 @@
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
        
+        <img src="assets/JMATA.jpg">
         <img src="assets/MATAPH1.png">
         <img src="assets/MATAPH2.png">
         <img src="assets/MATAPH3.png">
@@ -288,6 +289,7 @@
       </button>
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
+        <img src="assets/JDYNATA.jpg">
         <img src="assets/DYNATA1.png">
         <img src="assets/DYNATA2.jpg">
         <img src="assets/DYNATA3.jpg">
@@ -300,6 +302,7 @@
       </button>
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
+        <img src="assets/JUP.jpg">
         <img src="assets/UP1.png">
         <img src="assets/UP2.png">
         <img src="assets/UP3.jpg">
@@ -312,6 +315,7 @@
       </button>
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
+        <img src="assets/JRIVAN.jpg" alt="Cebu Gallery 4 - 1">
         <img src="assets/RIVAN1.JPG" alt="Cebu Gallery 4 - 1">
         <img src="assets/RIVAN2.jpg" alt="Cebu Gallery 4 - 1">
         <img src="assets/RIVAN3.jpg" alt="Cebu Gallery 4 - 1">
@@ -327,6 +331,7 @@
       </button>
       <section class="photo-gallery-grid">
       <p> Click the photo to view the full image. </p>
+       <img src="assets/JTARSIER.jpg">
         <img src="assets/TARSIER1.JPG">
         <img src="assets/TARSIER2.JPG">
         <img src="assets/TARSIER3.jpg">
