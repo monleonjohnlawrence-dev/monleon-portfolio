@@ -144,12 +144,13 @@
       </div>
       <!-- NEW WRAPPER END -->
     `,
-    resume: `
-      <h2>My <span class="colored">Resume</span></h2>
-      <div class="divider ltr"></div>
-      <!-- EDIT RESUME TEXT HERE -->
-      <p>Soon</p>
-    `,
+      resume: `
+        <h2>My <span class="colored">Resume</span></h2>
+        <div class="divider ltr"></div>
+        <!-- EDIT RESUME TEXT HERE -->
+        <p>To view my complete resume, please explore all sections using the navigation bar. Each tab provides a deeper look into my skills,
+         experience, contact details, and projects.</p>
+      `,
     // EDIT PROJECTS CONTENT HERE
     projects: `
       <h2>My <span class="colored">Projects</span></h2>
